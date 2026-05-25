@@ -99,6 +99,10 @@
             Console.WriteLine("=== Start av programmet ===");
             Console.WriteLine("Demo för att visa felhantering i C#");
         }
+        void AFunction()
+        {
+            Console.WriteLine("Hello");
+        }
     }
 }
 
