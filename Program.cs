@@ -93,6 +93,11 @@
                 }
             }
         }
+
+        void AFunction()
+        {
+            Console.WriteLine("Hello");
+        }
     }
 }
 
