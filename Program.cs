@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             {
-                Console.WriteLine("=== Start av programmet ===");
+                StartupInfo();
 
                 // Exempel 1: try-catch-finally
                 try
@@ -94,6 +94,11 @@
             }
         }
 
+        static private void StartupInfo()
+        {
+            Console.WriteLine("=== Start av programmet ===");
+            Console.WriteLine("Demo för att visa felhantering i C#");
+        }
         void AFunction()
         {
             Console.WriteLine("Hello");
